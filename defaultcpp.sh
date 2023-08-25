@@ -7,4 +7,6 @@ mv ./default-cpp-project/* ./
 
 rm defaultcpp.sh # This script is inside the repo, but we do not need it.
 
+sudo rm -r .git # Reset .git data
+
 sudo rm -r default-cpp-project 
